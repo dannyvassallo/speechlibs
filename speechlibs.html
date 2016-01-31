@@ -1,0 +1,36 @@
+<head>
+  <title>speechlibs</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <div id="input-group">
+    <label>Noun</label>
+    <input id="noun1" type="text"><div class="listen">Listen</div>
+    <label>Plural Noun</label>
+    <input id="pluralnoun" type="text"><div class="listen">Listen</div>
+    <label>Noun</label>
+    <input id="noun2" type="text"><div class="listen">Listen</div>
+    <label>Place</label>
+    <input id="place" type="text"><div class="listen">Listen</div>
+    <label>Adjective</label>
+    <input id="adjective" type="text"><div class="listen">Listen</div>
+    <label>Noun</label>
+    <input id="noun3" type="text"><div class="listen">Listen</div>
+  </div>
+  <div class="makeIt">MakeIt</div>
+  <div class="sayIt">SayIt</div>
+  <div id="content">
+    Be kind to your <span name="noun1">NOUN</span>-footed <span name="pluralnoun">PLURAL NOUN</span>.
+    For a duck may be somebody's <span name="noun2">NOUN2</span>,
+    Be kind to your <span name="pluralnoun">PLURAL NOUN</span> in <span name="place">PLACE</span>.
+    Where the weather is always <span name="adjective">ADJECTIVE</span>.
+
+    You may think that this is the <span name="noun3">NOUN3</span>,
+    Well it is.
+  </div>
+</template>
