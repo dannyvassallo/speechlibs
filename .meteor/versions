@@ -20,8 +20,6 @@ deps@1.0.9
 diff-sequence@1.0.1
 ecmascript@0.1.6
 ecmascript-runtime@0.2.6
-ecwyne:polymer@1.0.6
-ecwyne:voice-elements@1.0.2
 ejson@1.0.7
 es5-shim@4.1.14
 fastclick@1.0.7
